@@ -63,6 +63,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Filmes\animacao\up.xaml.cs">
+	    <DependentUpon>up.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\animacao\toy.xaml.cs">
+	    <DependentUpon>toy.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\animacao\homem_aranha.xaml.cs">
+	    <DependentUpon>homem_aranha.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Categorias\animacao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -106,6 +118,15 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\acao\topgun.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\animacao\up.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\animacao\toy.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\animacao\homem_aranha.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\animacao\dragon.xaml">

@@ -28,16 +28,37 @@ public partial class animacao : ContentPage
 
     private void spiderbutton_Clicked(object sender, EventArgs e)
     {
-
+        try
+        {
+            Navigation.PushAsync(new homem_aranha());
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("OPS!!", ex.Message, "OK");
+        }
     }
 
     private void toystory_Clicked(object sender, EventArgs e)
     {
-
+        try
+        {
+            Navigation.PushAsync(new toy());
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("OPS!!", ex.Message, "OK");
+        }
     }
 
     private void up_Clicked(object sender, EventArgs e)
     {
-
+        try
+        {
+            Navigation.PushAsync(new up());
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("OPS!!", ex.Message, "OK");
+        }
     }
 }
