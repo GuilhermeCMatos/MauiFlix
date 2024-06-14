@@ -47,6 +47,13 @@ public partial class comedia : ContentPage
 
     private void anjosbtnfiml_Clicked(object sender, EventArgs e)
     {
-
+        try
+        {
+            Navigation.PushAsync(new Filmes.comedia.anjos());
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("OPS!!", ex.Message, "OK");
+        }
     }
 }

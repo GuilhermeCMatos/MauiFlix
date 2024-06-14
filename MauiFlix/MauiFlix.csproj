@@ -84,11 +84,23 @@
 	  <Compile Update="Filmes\aventura\indiana.xaml.cs">
 	    <DependentUpon>indiana.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Filmes\comedia\anjos.xaml.cs">
+	    <DependentUpon>anjos.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\comedia\vovozona.xaml.cs">
+	    <DependentUpon>vovozona.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Filmes\comedia\gente_g.xaml.cs">
 	    <DependentUpon>gente_g.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Filmes\comedia\branquelas.xaml.cs">
 	    <DependentUpon>branquelas.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\documentario\einstein.xaml.cs">
+	    <DependentUpon>einstein.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\documentario\nossoplaneta.xaml.cs">
+	    <DependentUpon>nossoplaneta.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
@@ -162,13 +174,22 @@
 	  <MauiXaml Update="Filmes\aventura\indiana.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Filmes\comedia\gente_g - Cópia.xaml">
+	  <MauiXaml Update="Filmes\comedia\anjos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\comedia\vovozona.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\comedia\gente_g.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\comedia\branquelas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\documentario\einstein.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\documentario\nossoplaneta.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
