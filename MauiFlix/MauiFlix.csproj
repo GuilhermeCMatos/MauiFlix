@@ -72,6 +72,24 @@
 	  <Compile Update="Filmes\animacao\homem_aranha.xaml.cs">
 	    <DependentUpon>homem_aranha.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Filmes\aventura\tomb.xaml.cs">
+	    <DependentUpon>tomb.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\aventura\jurassic.xaml.cs">
+	    <DependentUpon>jurassic.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\aventura\uncharted.xaml.cs">
+	    <DependentUpon>uncharted.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\aventura\indiana.xaml.cs">
+	    <DependentUpon>indiana.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\comedia\gente_g.xaml.cs">
+	    <DependentUpon>gente_g.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\comedia\branquelas.xaml.cs">
+	    <DependentUpon>branquelas.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -130,6 +148,27 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\animacao\dragon.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\aventura\tomb.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\aventura\jurassic.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\aventura\uncharted.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\aventura\indiana.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\comedia\gente_g - Cópia.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\comedia\gente_g.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\comedia\branquelas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

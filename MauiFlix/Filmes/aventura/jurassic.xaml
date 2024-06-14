@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiFlix.Filmes.aventura.jurassic"
+             Title="jurassic"
+             BackgroundColor="Black">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="titulo">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="HorizontalTextAlignment" Value="Start"/>
+
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+            <Style TargetType="Label" x:Key="textoTitulo">
+                <Setter Property="FontSize" Value="10"/>
+                <Setter Property="HorizontalTextAlignment" Value="Start"/>
+
+                <Setter Property="TextColor" Value="White"/>
+
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid RowDefinitions="*,*" ColumnDefinitions="*">
+        <WebView Grid.Column="0" Grid.Row="0"
+         Source="https://www.youtube.com/embed/yO8DP21B9-U?si=PScWP7wtMCxHsgzX"/>
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*,*" ColumnDefinitions="*, *">
+                <Image Grid.Column="0" Grid.Row="0"
+               Source="jurassic.jpg" HeightRequest="300"/>
+                <StackLayout VerticalOptions="CenterAndExpand"
+                     Grid.Column="1" Grid.Row="0">
+                    <Label Text="Data de Lançamento:"
+                   Style="{StaticResource titulo}"/>
+                    <Label Text="13 de junho de 1993"
+                   Style="{StaticResource textoTitulo}"
+                   TextColor="White"/>
+
+
+                    <Label Text="Direção" Margin="0, 20, 0, 0"
+                   Style="{StaticResource titulo}"/>
+                    <Label Text=" Steven Spielberg, Kathleen Kennedy"
+                   Style="{StaticResource textoTitulo}"/>
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+                    <Label Text="Sinopse" Style="{StaticResource titulo}"/>
+                    <Label x:Name="sinopse" Text="Os paleontólogos Alan Grant, Ellie Sattler e o matemático Ian Malcolm fazem parte de um seleto grupo escolhido para visitar uma ilha habitada por dinossauros criados a partir de DNA pré-histórico. O idealizador do projeto e bilionário John Hammond garante a todos que a instalação é completamente segura. Mas após uma queda de energia, os visitantes descobrem, aos poucos, que vários predadores ferozes estão soltos e à caça."
+                   TextColor="White"
+                   FontSize="Medium" Padding="5"/>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>
